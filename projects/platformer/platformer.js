@@ -26,19 +26,19 @@ $(function () {
    
  
  
-    createPlatform(500, 200, 200, 20); // short but wide platform located 100 pixels from the left of the screen and 100 pixels from the bottom of the screen
-    createPlatform(725, 200, 200, 20); // short but wide platform located 100 pixels from the left of the screen and 100 pixels from the bottom of the screen
-    createPlatform(600, 200, 200, 20); // short but wide platform located 100 pixels from the left of the screen and 100 pixels from the bottom of the screen
-    createPlatform(450, 400, 200, 20); // short but wide platform located 100 pixels from the left of the screen and 100 pixels from the bottom of the screen
-    createPlatform(600, 400, 200, 20); // short but wide platform located 100 pixels from the left of the screen and 100 pixels from the bottom of the screen
+    createPlatform(300, 125, 200, 20); // short but wide platform located 100 pixels from the left of the screen and 100 pixels from the bottom of the screen
+    createPlatform(535, 200, 200, 20); // short but wide platform located 100 pixels from the left of the screen and 100 pixels from the bottom of the screen
+    createPlatform(200, 275, 200, 20); // short but wide platform located 100 pixels from the left of the screen and 100 pixels from the bottom of the screen
+    createPlatform(50, 500, 200, 20); // short but wide platform located 100 pixels from the left of the screen and 100 pixels from the bottom of the screen
+    createPlatform(650, 400, 200, 20); // short but wide platform located 100 pixels from the left of the screen and 100 pixels from the bottom of the screen
     createPlatform(800, 300, 200, 20); // short but wide platform located 100 pixels from the left of the screen and 100 pixels from the bottom of the screen
-    createPlatform(1000, 300, 200, 20); // short but wide platform located 100 pixels from the left of the screen and 100 pixels from the bottom of the screen
+    createPlatform(0, 275, 200, 20); // short but wide platform located 100 pixels from the left of the screen and 100 pixels from the bottom of the screen
     createPlatform(1300, 320, 200, 100); // short but wide platform located 100 pixels from the left of the screen and 100 pixels from the bottom of the screen
     createPlatform(600, 535, 200, 20); // short but wide platform located 100 pixels from the left of the screen and 100 pixels from the bottom of the screen
-    createPlatform(100, 650, 200, 30); // short but wide platform located 100 pixels from the left of the screen and 100 pixels from the bottom of the screen
-    createPlatform(700, 650, 100, 100); // short but wide platform located 100 pixels from the left of the screen and 100 pixels from the bottom of the screen
+    createPlatform(100, 600, 200, 30); // short but wide platform located 100 pixels from the left of the screen and 100 pixels from the bottom of the screen
+    createPlatform(500, 650, 100, 100); // short but wide platform located 100 pixels from the left of the screen and 100 pixels from the bottom of the screen
     createPlatform(800, 520, 600, 20); // short but wide platform located 100 pixels from the left of the screen and 100 pixels from the bottom of the screen
-    createPlatform(100, 400, 200, 20); // short but wide platform located 100 pixels from the left of the screen and 100 pixels from the bottom of the screen
+    createPlatform(300, 400, 200, 20); // short but wide platform located 100 pixels from the left of the screen and 100 pixels from the bottom of the screen
  
  
  createCollectable("steve", 750, 300, 20, 0.5); // creates a "steve" collectible at the coordinates (500, 300), falling with a high gravity and bouncing with 50% bounce
@@ -49,7 +49,7 @@ $(function () {
  createCannon("left", 490, 1000); // cannon on right wall, 200px down, shooting twice per second
  createCannon("right", 400, 1000); // cannon on left wall, 400px down, shooting once per second
  createCannon("left", 100, 1000); // cannon on right wall, 500px down, shooting triple per second
- 
+ createCannon("top", 300, 1000)
  
     /////////////////////////////////////////////////
     //////////ONLY CHANGE BELOW THIS POINT///////////
