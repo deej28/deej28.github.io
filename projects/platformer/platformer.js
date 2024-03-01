@@ -27,11 +27,10 @@ $(function () {
  
  
     createPlatform(300, 125, 200, 20); // short but wide platform located 100 pixels from the left of the screen and 100 pixels from the bottom of the screen
-    createPlatform(535, 200, 200, 20); // short but wide platform located 100 pixels from the left of the screen and 100 pixels from the bottom of the screen
+    createPlatform(530, 200, 200, 20); // short but wide platform located 100 pixels from the left of the screen and 100 pixels from the bottom of the screen
     createPlatform(200, 275, 200, 20); // short but wide platform located 100 pixels from the left of the screen and 100 pixels from the bottom of the screen
-    createPlatform(50, 500, 200, 20); // short but wide platform located 100 pixels from the left of the screen and 100 pixels from the bottom of the screen
-    createPlatform(650, 400, 200, 20); // short but wide platform located 100 pixels from the left of the screen and 100 pixels from the bottom of the screen
-    createPlatform(800, 300, 200, 20); // short but wide platform located 100 pixels from the left of the screen and 100 pixels from the bottom of the screen
+    createPlatform(700, 400, 200, 20); // short but wide platform located 100 pixels from the left of the screen and 100 pixels from the bottom of the screen
+    createPlatform(1000, 365, 200, 20); // short but wide platform located 100 pixels from the left of the screen and 100 pixels from the bottom of the screen
     createPlatform(0, 275, 200, 20); // short but wide platform located 100 pixels from the left of the screen and 100 pixels from the bottom of the screen
     createPlatform(1300, 320, 200, 100); // short but wide platform located 100 pixels from the left of the screen and 100 pixels from the bottom of the screen
     createPlatform(600, 535, 200, 20); // short but wide platform located 100 pixels from the left of the screen and 100 pixels from the bottom of the screen
